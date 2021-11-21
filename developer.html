@@ -123,6 +123,34 @@
                 padding: 50px;
             }
             
+            .box11 {
+                box-sizing: border-box; 
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                top: -90px;
+                width: 900px;
+                height: 200px;
+                border-radius: 25px;
+            }
+            
+            .box12 { 
+                display: inline-block;
+                height: 200px;
+                width: 200px;
+                border: 1px solid;
+                border-color: #021053;
+                background-color: white;
+                border-top-left-radius: 25px;
+                border-radius: 25px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            
+            
             .p1 {
                 color: white;
                 font-size: 2em;
@@ -144,6 +172,24 @@
                 margin: 2em;
                 height: 70px;
             }
+            
+            .p4 {
+                color: black;
+                font-size: 12px;
+                text-align: center;
+                margin: 2em;
+                height: 20px;
+            }
+            
+            .p5 {
+                color: blue;
+                font-size: 12px;
+                text-align: center;
+                margin: 2em;
+                height: 20px;
+            }
+            
+            
             
             .h3 {
                 color: blue;
@@ -225,7 +271,7 @@
             }
             
             #pic {
-                display: inline-block;
+                display: block;
                 height: 300px;
                 width: 200px;
                 margin: 2em;
@@ -236,6 +282,22 @@
             .hr {
                 border-top: 2px solid grey;
                 margin-bottom: 10em;
+            }
+            
+            #pic2 {
+                display: inline-block;
+                height:100px;
+                width: 100px;
+                border-radius: 50px;
+                margin: 1em; 
+            }
+            
+            #pic3 {
+                display: block;
+                height:100px;
+                width: 100px;
+                border-radius: 50px;
+                margin: auto;
             }
             
  
@@ -363,7 +425,61 @@
         <hr class="hr">
         
         <h4 class="h4">I'm proud to have collaborated with some
-        awsome people</h4>
+        awsome people:</h4>
+        
+        <div class="box10">
+            <img id="pic2" src="taylor.jpg"></img>
+            <img id="pic2" src="micah.jpg"></img>
+            <img id="pic2" src="alex.jpg"></img>
+            <img id="pic2" src="chad.jpg"></img>
+            <img id="pic2" src="rei.jpg"></img>
+            <img id="pic2" src="john.jpg"></img>
+        </div>
+        
+         <div class="box5">
+            <p class="p1">
+                My BJJ Positions
+            </p>
+            <p class="p2">
+                I'm a bit of a nerd when it comes to BJJ. I really enjoy
+                having a broad game and being able to be comfortable
+                in any position. I have been able to narrow my field lately 
+                to things I really want to start mastering.
+                
+            </p>
+        </div>
+        <div class="box11">
+            <div class="box12">
+                <img id="pic3" src="kimura.png"></img>
+                <p class="p4">
+                        Attacking the shoulder.
+                </p>
+                <p class="p5">
+                    <a href="https://www.youtube.com/watch?v=mVkKOPNGvjA">
+                        See the move here.</a>
+                </p>
+            </div>
+            <div class="box12">
+                <img id="pic3" src="armbar.png"></img>
+                <p class="p4">
+                         Attacking the elbow.
+                </p>
+                <p class="p5">
+                     <a href="https://www.youtube.com/watch?v=GshEzcqlUbY">
+                         See the move here.</a>
+                </p>
+            </div>
+            <div class="box12">
+                <img id="pic3" src="triangle-choke.png"></img>
+                <p class="p4">
+                         Attacking the neck.
+                </p>
+                <p class="p5">
+                    <a href="https://www.youtube.com/watch?v=DSuh4MRwqHg">
+                        See the move here.</a>
+                </p>
+            </div>
+        </div>
  
 
     </body>
