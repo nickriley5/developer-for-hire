@@ -150,6 +150,17 @@
                 margin-right: auto;
             }
             
+            .box13 {
+                position: relative;
+                display: float;
+                bottom: -175px;
+                height: 500px;
+                background-color: #021053;
+                padding: 10px;
+                margin-left: 2em;
+                margin-right: 2em;
+                
+            }
             
             
             .p1 {
@@ -190,6 +201,29 @@
                 height: 20px;
             }
             
+            .p6 {
+                color: white;
+                font-size: 18px;
+                text-align: center;
+                margin: 2em;
+            }
+            
+            .p7 {
+                color: white;
+                font-size: 12px;
+                text-align: center;
+                padding-top: 15px;
+                margin: 2em;
+            }
+            
+            .p8 {
+                color: white;
+                font-size: 10px;
+                text-align: center;
+                padding-top: 15px;
+                margin: 2em;
+            }
+            
             
             
             .h3 {
@@ -219,6 +253,21 @@
                 border: solid;
                 border-color: blue;
                 background-color: white;
+                border-radius: 25px;
+            }
+            
+            .button2 {
+                display: block;
+                font-size: 10px;
+                color: white;
+                text-align: center;
+                margin: auto;
+                margin-top: 25px;
+                width: 200px;
+                height: 50px;
+                border: solid;
+                border-color: blue;
+                background-color: #293346;
                 border-radius: 25px;
             }
             
@@ -258,10 +307,29 @@
             #img4 {
                 display: block;
                 Margin-left: auto;
-                Margin-right: auto;
+                margin-right: auto;
                 height: 400px;
                 width: 400px;
+                border-radius: 50%;
             }
+            
+            #img5 {
+                display:block;
+                height: 50px;
+                width: 50px;
+                margin: auto;
+                top: 400px;
+            }
+            
+            #img6 {
+                display: block;
+                height: 40px;
+                width: 40px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 25px;
+            }
+            
             
             #logo {
                 display: block;
@@ -308,6 +376,49 @@
                 margin: auto;
                 border-radius: 25px;
                 
+            }
+            
+            .container {
+                box-sizing: border-box; 
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                width: 900px;
+                border-radius: 10px;
+                background-color: white;
+                top:-400px;
+            }
+            
+            .container2 {
+                display: block;
+                height: 150px;
+            }
+            
+            .inner1 {
+                display: block;
+                height: 100px;
+                width: 300px;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                background-color: #293346 
+            }
+            
+            .inner2 {
+                display: block;
+                height: 100px;
+                width: 300px;
+                background-color: #293346;
+            }
+            
+            .inner3 {
+                display: block;
+                height: 100px;
+                width: 300px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                background-color: #293346;
             }
             
  
@@ -517,6 +628,43 @@
         <div>
             <img id="pic4" src="bryce.png"></img>
         </div>
+        <div class=box13>
+            <div class="container2">
+                
+            </div>
+            <img id="img5" src="about.me-logo2.png"></img>
+            <p class="p2">
+                Interested in starting? We should get together
+            </p>
+            <a href="https://www.facebook.com/rileyn.riley/">
+            <img id="img6" src="facebook-logo2.png"></img></a>
+            <a href="https://twitter.com/the_nick_riley">
+            <img id="img6" src="twitter-logo2.png"></img></a>
+            <a href="https://www.linkedin.com/in/nicholas-riley-272234224/">
+            <img id="img6" src="linkedin-logo2.png"></img></a>
+            <p class="p8">
+                Made by me
+            </p>
+        </div>
+        <div class="container">
+            <div class="inner1">
+                <p class="p6">
+                    Start a FREE week!
+                </p>
+            </div>
+            <div class="inner2">
+                <p class="p7">
+                    Always been interested in BJJ? Sign up 
+                    and let's get you started on your new 
+                    path.
+                </p>
+            </div>
+            <div class="inner3">
+                <button class="button2"><a href="https://corsairbjj.com/">
+                Sign up here.</a></button>
+            </div>
+        </div>
+        
         
     </body>
 </html>
