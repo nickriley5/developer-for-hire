@@ -72,14 +72,14 @@
                 margin-right: auto;
                 top: -90px;
                 width: 900px;
-                height: 600px;
+                height: 500px;
                 border-radius: 25px;
                 background-color: white;
             }
             
             .box7 { 
                 display: block;
-                height: 600px;
+                height: 500px;
                 width: 300px;
                 border: 1px solid;
                 border-color: #021053;
@@ -90,7 +90,7 @@
             
             .box8 {
                 display: block;
-                height: 600px;
+                height: 500px;
                 width: 300px;
                 border: 1px solid;
                 border-color: #021053;
@@ -99,13 +99,28 @@
             
             .box9 {
                 display: block;
-                height: 600px;
+                height: 500px;
                 width: 300px;
                 border: 1px solid;
                 border-color: #021053;
                 background-color: white;
                 border-top-right-radius: 25px;
                 border-bottom-right-radius: 25px; 
+            }
+            
+            .box10 {
+                box-sizing: border-box; 
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 2em;
+                width: 900px;
+                height: 300px;
+                border-radius: 25px;
+                background-color: white;
+                padding: 50px;
             }
             
             .p1 {
@@ -126,9 +141,51 @@
                 color: black;
                 font-size: 12px;
                 text-align: center;
-                padding-left: 20px;
-                padding-right: 20px;
-                margin: auto;
+                margin: 2em;
+                height: 70px;
+            }
+            
+            .h3 {
+                color: blue;
+                font-size: 12px;
+                text-align: center;
+                height: 15px;
+                margin: 2em;
+            }
+            
+            .h4 {
+                color: black;
+                font-size: 20px;
+                text-align: center;
+                margin: 1em;
+            }
+            
+            .button {
+                display: block;
+                font-size: 10px;
+                color: blue;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                width: 200px;
+                height: 50px;
+                border: solid;
+                border-color: blue;
+                background-color: white;
+                border-radius: 25px;
+            }
+            
+            .list {
+                color: black;
+                font-size: 10px;
+                text-align: center;
+                list-style-type: none;
+                height: 100px;
+                margin-top: auto;
+                margin-right: 4em;
+                margin-bottom: auto;
+                
+                
             }
             
             #img1 {
@@ -165,6 +222,20 @@
                 width: 100px;
                 padding: 20px;
                 margin: auto;
+            }
+            
+            #pic {
+                display: inline-block;
+                height: 300px;
+                width: 200px;
+                margin: 2em;
+                border-radius: 25px;
+                
+            }
+            
+            .hr {
+                border-top: 2px solid grey;
+                margin-bottom: 10em;
             }
             
  
@@ -215,7 +286,14 @@
                 <h2>Coach</h2>
                 <p class=p3>I enjoy coaching all ages. I want to be able
                 to help each member of our community reach their desired
-                goals</p>
+                goals.</p>
+                <h3 class="h3">Submissions I love</h3>
+                <ul class="list">
+                    <li>Head and Arm Chock</li>
+                    <li>Armbar</li>
+                    <li>Darce</li>
+                    <li>Bread-Cutter</li>
+                </ul>
             </div>
     
             <div class= box8>
@@ -224,6 +302,14 @@
                     <img id="logo" src="coding.svg"></img></a>
                 </div>
                 <h2>Developer</h2>
+                <p class="p3">Working with inventive academy to do both the
+                front end and back end development.</p>
+                <h3 class="h3">Languages I speak</h3>
+                <ul class="list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Soon...JavaScript</li>
+                </ul>
             </div>
             
             <div class="box9">
@@ -232,10 +318,52 @@
                     <img id="logo" src="monkey.png"></img></a>
                 </div>
                 <h2>Firefighter</h2>
-                
+                <p class="p3">I am currently working as a firefighter with 
+                North Hays County in Dripping Springs. I have volunteered
+                with the city of Bastrop as well. I believe both full-time
+                and volunteer are extremely important in the community.</p>
+                <h3 class="h3"> Certifications I hold</h3>
+                <ul class="list">
+                    <li>Basic Firefighter</li>
+                    <li>Driver/Operator</li>
+                    <li>Aeriel</li>
+                    <li>Swiftwater Advanced</li>
+                    <li>Advanced Rope-Rescue Tech</li>
+                </ul>
             </div>
             
         </div>
+        
+        <div>
+            <h4 class="h4">My Recent Work</h4>
+            <h2>Here are a few recent projects. Want to see more? 
+            <a href="corsairbjj@gmail.com">Email Me.</a></h2>
+        </div>
+        
+        <div class="box10">
+        
+            <div class="inline">
+                <img id="pic" src="nick2nd.png"></img>
+            </div>
+            
+            <div calss="inline">
+                <img id ="pic" src="nickonback.jpg"></img>
+            </div>
+            
+            <div class="inline">
+                <img id="pic" src="nickfire.jpg"></img>
+            </div>
+        </div>
+        
+        <div class="box10">
+            <button class="button"><a href="https://www.facebook.com/rileyn.riley/">
+                For more, check out my Facebook</a></button>
+        </div>
+        
+        <hr class="hr">
+        
+        <h4 class="h4">I'm proud to have collaborated with some
+        awsome people</h4>
  
 
     </body>
